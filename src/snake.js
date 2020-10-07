@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-export default ( props) => {
+export default (props) => {
 return (
 <div>
 {props.snakeDots.map((dot, i) => {
@@ -17,7 +17,8 @@ return (
         <div className="snake-dot" key= {i} style={style}></div>
              
     )
-})}
+})
+}
 
 </div>
   
